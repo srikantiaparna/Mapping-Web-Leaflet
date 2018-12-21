@@ -58,6 +58,7 @@ d3.json(quakeLink, function(data){
             "</h4><hr><p><strong>" + "Date Time: " + new Date(feature.properties.time) + "</p></strong> "
         )
 
+
     }
 
     });
@@ -91,7 +92,7 @@ d3.json(quakeLink, function(data){
 
 function getColor(markers) {
     return markers > 5  ? '#E31A1C' :
-           markers > 4  ? '#ff7f50' :
+           markers > 4  ? '#ffb6c1' :
            markers > 3  ? '#ffa500' :
            markers > 2  ? '#ffd700' :
            markers > 1  ? '#adff2f' :
